@@ -118,7 +118,7 @@ form h2 {
 }
 
   @media only screen and (max-device-width: 480px) {
-        div.form-wrapper {
-            width: 100vh;
+        div.container {
+            width: 100vw;
         }
 }
