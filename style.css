@@ -107,10 +107,6 @@ form h2 {
   color: #fff;
   font-weight: 300;
   
-  @media only screen and (max-device-width: 480px) {
-        div#form-wrapper {
-            width: 400px;
-        }
 }
 
 .inputs-wrapper input[type="submit"] {
@@ -119,4 +115,10 @@ form h2 {
   font-weight: 900;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+  @media only screen and (max-device-width: 480px) {
+        div.form-wrapper {
+            width: 400px;
+        }
 }
